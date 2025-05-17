@@ -1,0 +1,28 @@
+
+.book-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+}
+
+.book-element {
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.add-new {
+    margin-bottom: 3%;
+}
+
+.book-element > * {
+    text-align: center;
+    width: 68%;
+}
+
+.toggle-read {
+
+    width: 68%;
+}
