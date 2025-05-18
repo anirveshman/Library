@@ -62,8 +62,11 @@ function createCard(book){
     removeElement.classList.add("remove-book");
     removeElement.addEventListener("click", (e) => {
         for(i = 0; i < myLibrary.length; i++){
-            if(myLibrary[i].id == idval) myLibrary.splice(i, 1);
-            break;
+            if(myLibrary[i].id == idval) 
+                {   
+                    myLibrary.splice(i, 1);
+                    break;
+                }
         }
 
         displayLibrary();
